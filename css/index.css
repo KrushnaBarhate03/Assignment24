@@ -79,9 +79,7 @@ body {
 }
 
 .Enroll-btn {
-  background-color:
-
-    #0078D7;
+  background-color:navy;
   color: white;
   font-size: 25px;
   margin-left: 120px;
@@ -184,13 +182,10 @@ body {
   width: 280px;
   height: 200px;
   border-radius: 10px 12px;
-  box-shadow: 0 0 10px #0078D7;
+ border:1px solid black;
 }
 
-.hiring-partner-card1:hover {
-  border: 1px solid black;
 
-}
 
 .image-card {
   margin-left: 70px;
