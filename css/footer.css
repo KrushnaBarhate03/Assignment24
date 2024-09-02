@@ -1,13 +1,9 @@
 .footer{
-  background-color: /*#3B3F54*/#B2E6CE;
+  background-color: #B2E6CE;
   color:black;
   width: 100%;
- /* display:flex;
-/* flex-direction:row;*/
- /* justify-content:space-evenly;
-  font-family:'Times New Roman', Times, serif;
-   /*font-weight:bold;
-  font-size:1.5em;*/
+
+  
 }
 .Address{
  margin-left: 10px;
@@ -27,6 +23,7 @@
 
 .para-contact{
   margin-bottom:15px;
+  font-family:'Times New Roman', Times, serif;
 }
 .para-foot{
   color:black;
@@ -51,15 +48,13 @@
   margin-bottom:7px;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  /* Styles for smartphones */
+ 
  .footer {
-  /*background-color: /*#3B3F54*//*#333333;*/
-      color:white;
+  
+      
    display: flex !important;
     flex-direction: column;
-    /*justify-content:start;*/
-    /*flex-wrap:wrap;*/
-    /*align-items:;*/
+   
   }
   .para-contact{
     margin:30px !important;
@@ -69,16 +64,14 @@
    }
 
    @media only screen and (min-width: 1024px) and (max-width: 1680px) {
-    /* Styles for laptops */
+   
     .footer{
-     /* background-color: /*#3B3F54*/ /*#333333;
-      color:white;*/
+    
       display:flex;
      flex-direction:row;
      justify-content:space-evenly;
       font-family:'Times New Roman', Times, serif;
-       /*font-weight:bold;
-      font-size:1.5em;*/
+       
     }
 
     

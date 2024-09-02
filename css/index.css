@@ -1,14 +1,15 @@
 body {
-  background-color:#EFF8F3;
+  background-color: #EFF8F3;
   margin: 0;
   padding: 0;
 }
+
 .whole {
   background-color: #B2E6CE;
   height: 30px;
   margin-bottom: 4px;
   padding: 5px;
-  color:black;
+  color: black;
 
 
 
@@ -16,9 +17,9 @@ body {
 
 .text {
   text-align: right;
-  font-family:'Times New Roman', Times, serif;
-  font-weight:bold;
-  font-size:20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
 
 }
 
@@ -28,17 +29,16 @@ body {
 
 .container {
   display: flex;
-  /* flex-direction:row; */
+
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items:center; */
+
 }
 
 .left-side {
   margin-left: 80px;
   margin-right: 15px;
-  /* height: 250px;
-width: 300px; */
+
 
 
 }
@@ -80,7 +80,7 @@ width: 300px; */
 
 .Enroll-btn {
   background-color:
-    /*#87CEEB #4CAF50,#8BC34A #FF9900 #3B3F54*/
+
     #0078D7;
   color: white;
   font-size: 25px;
@@ -92,13 +92,13 @@ width: 300px; */
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   border-radius: 10px 12px;
-  /*-shadow:0 0 10px black;*/
+
   cursor: pointer;
 }
 
 .Enroll-btn:hover {
   background-color:
-    /*#8F2C9F*/
+
     white;
   color: black;
 
@@ -107,7 +107,7 @@ width: 300px; */
 
 
 .Job-Oriented-Domains {
-   background-color:#EFF8F3;
+  background-color: #EFF8F3;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -156,7 +156,7 @@ width: 300px; */
 
 .heading3 {
   background-color: #B2E6CE;
-  /*image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));*/
+
   margin-top: 25px;
   height: 40px;
   padding: 5px;
@@ -202,13 +202,13 @@ width: 300px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /*align-items:center;*/
+
   flex-wrap: wrap;
 }
 
 .service-card {
   background-color:
-    /*#3B3F54 032B44 4169E1 3B3F54*/
+
     #0078D7;
   margin-left: 20px;
   margin: 40px;
@@ -250,7 +250,7 @@ width: 300px; */
 }
 
 .placement-container {
-  /*background-color:#E5E5E5;*/
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -262,30 +262,29 @@ width: 300px; */
   margin: 25px;
   width: 320px;
   height: 320px;
-  /*border:2px solid black;*/
+
   border-radius: 10px 12px;
-  border-bottom:5px solid navy;
+  border-bottom: 5px solid navy;
 }
 
 
 
-.btnn{
-  margin-left:80px;
-  font-family:'Times New Roman', Times, serif;
-  font-weight:bold;
-  width:150px;
-  height:25px;
-  margin-top:10px;
-  background-color:coral;
-  border:none;
-  font-size:18px;
-  border-radius:12px 14px;
-  
+.btnn {
+  margin-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  width: 150px;
+  height: 25px;
+  margin-top: 10px;
+  background-color: coral;
+  border: none;
+  font-size: 18px;
+  border-radius: 12px 14px;
+
 }
+
 .placement {
-  /*margin-left: 90px;*/
-  /*border: 1px solid black;*/
-  /*margin-top: 20px;*/
+
   margin-bottom: 5px;
   background-color: #E5E5E5;
   border-radius: 10px 12px;
@@ -298,7 +297,7 @@ width: 300px; */
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: bold;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .logo {
@@ -342,7 +341,7 @@ width: 300px; */
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1680px) {
-  /* Styles for laptops */
+
 
   .card1 {
     margin: 50px;
